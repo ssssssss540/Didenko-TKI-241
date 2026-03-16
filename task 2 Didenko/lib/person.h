@@ -12,7 +12,7 @@ public:
     Person(const std::string& name, int age);
     virtual ~Person() = default;
 
-    virtual std::string getInfo() const = 0;
+    virtual std::string getInfo() const = 0;  //
     virtual std::string getType() const = 0;
 
     std::string getName() const;

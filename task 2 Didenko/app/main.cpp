@@ -8,7 +8,7 @@
 #include "Hospital.h"
 
 void printSeparator() {
-    std::cout << "--------------------------------------------------\n";
+    std::cout << "--------------------------------------------------\n";    //
 }
 
 void printInfo(const std::vector<std::shared_ptr<Person>>& people) {

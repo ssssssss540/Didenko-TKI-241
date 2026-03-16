@@ -13,7 +13,7 @@ std::string MedicalWorker::getInfo() const {
        << "\nID: " << id
        << "\nСпециализация: " << specialization
        << "\nОтделение: " << department
-       << "\nКоличество пациентов: " << patients.size();
+       << "\nКоличество пациентов: " << patients.size();  //
     return ss.str();
 }
 

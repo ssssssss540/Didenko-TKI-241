@@ -17,7 +17,7 @@ std::string Patient::getInfo() const {
        << "\nПалата: " << (room ? room->getRoomNumber() : "не назначена")
        << "\nДата поступления: " << admissionDate;
     if (attendingDoctor) {
-        ss << "\nЛечащий врач: " << attendingDoctor->getName();
+        ss << "\nЛечащий врач: " << attendingDoctor->getName(); //
     } else {
         ss << "\nЛечащий врач: не назначен";
     }
@@ -37,5 +37,5 @@ void Patient::setAdmissionDate(const std::string& admissionDate) { this->admissi
 void Patient::setAttendingDoctor(const std::shared_ptr<MedicalWorker>& doctor) { attendingDoctor = doctor; }
 
 bool Patient::isInRoom(const std::shared_ptr<Room>& someRoom) const {
-    return room == someRoom;
+    return room == someRoom; 
 }

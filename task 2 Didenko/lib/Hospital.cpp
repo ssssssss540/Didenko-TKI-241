@@ -10,7 +10,7 @@ void Hospital::addMedicalWorker(const std::shared_ptr<MedicalWorker>& worker) {
 void Hospital::removeMedicalWorker(int workerId) {
     medicalWorkers.erase(std::remove_if(medicalWorkers.begin(), medicalWorkers.end(),
         [workerId](const auto& w) { return w->getId() == workerId; }),
-        medicalWorkers.end());
+        medicalWorkers.end());    //
 
     for (auto& p : patients) {
         if (p->getAttendingDoctor() && p->getAttendingDoctor()->getId() == workerId)

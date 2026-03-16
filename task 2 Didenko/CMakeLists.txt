@@ -17,7 +17,7 @@ set(LIB_HEADERS
     lib/MedicalWorker.h
     lib/Patient.h
     lib/Room.h
-    lib/Hospital.h
+    lib/Hospital.h       //
 )
 
 add_library(EntitiesLibrary STATIC ${LIB_SRC})

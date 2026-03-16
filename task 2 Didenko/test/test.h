@@ -17,7 +17,7 @@ public:
     std::string getInfo() const override;
     std::string getType() const override;
 
-    std::string getSpecialization() const;
+    std::string getSpecialization() const;   //
     std::string getDepartment() const;
 
     void setSpecialization(const std::string& specialization);

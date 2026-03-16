@@ -9,7 +9,7 @@
 class Hospital {
 private:
     std::vector<std::shared_ptr<MedicalWorker>> medicalWorkers;
-    std::vector<std::shared_ptr<Patient>> patients;
+    std::vector<std::shared_ptr<Patient>> patients;   //
     std::vector<std::shared_ptr<Room>> rooms;          
 
 public:

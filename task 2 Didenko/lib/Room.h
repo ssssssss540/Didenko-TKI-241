@@ -6,5 +6,5 @@ private:
     std::string roomNumber;
 public:
     Room(const std::string& number);
-    std::string getRoomNumber() const;
+    std::string getRoomNumber() const;   //
 };

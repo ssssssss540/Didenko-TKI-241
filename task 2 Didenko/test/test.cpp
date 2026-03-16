@@ -14,7 +14,7 @@ TEST_F(HospitalTests, PatientCreation) {
     EXPECT_EQ(patient->getName(), "Тестовый Пациент");
     EXPECT_EQ(patient->getAge(), 30);
     EXPECT_EQ(patient->getDiagnosis(), "Тестовая болезнь");
-    EXPECT_EQ(patient->getType(), "Patient");
+    EXPECT_EQ(patient->getType(), "Patient"); //
     EXPECT_GT(patient->getId(), 0);
 }
 

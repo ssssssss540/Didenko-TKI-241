@@ -18,8 +18,8 @@ public:
             std::shared_ptr<Room> room = nullptr);
 
     std::string getInfo() const override;
-    std::string getType() const override;
-
+    std::string getType() const override;   //
+ 
     std::string getDiagnosis() const;
     std::shared_ptr<Room> getRoom() const;      
     std::string getAdmissionDate() const;
