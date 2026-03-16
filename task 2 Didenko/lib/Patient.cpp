@@ -37,5 +37,5 @@ void Patient::setAdmissionDate(const std::string& admissionDate) { this->admissi
 void Patient::setAttendingDoctor(const std::shared_ptr<MedicalWorker>& doctor) { attendingDoctor = doctor; }
 
 bool Patient::isInRoom(const std::shared_ptr<Room>& someRoom) const {
-    return room == someRoom;
+    return room == someRoom; 
 }
